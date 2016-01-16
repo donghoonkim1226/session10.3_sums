@@ -8,12 +8,9 @@ for( var i = 0 ; i < params.length; i++){
   sum = 0;
   for(var j = 0; j < params.length; j++){
     console.log('Ja ' + j)
-    if( j === i){
-    }
-    else{
+    if( j !== i){
       sum += parseFloat(params[j]);
       console.log(sum)
-    }
   }
   sumArray[i] = sum
 }
