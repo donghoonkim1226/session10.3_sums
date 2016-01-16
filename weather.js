@@ -10,7 +10,7 @@ request('http://api.openweathermap.org/data/2.5/weather?zip='+ zipcode + ',us&ap
   		request("http://www.omdbapi.com/?t=sad+movie&y=&plot=short&r=json", function (error, response, body){
   			console.log(body);
   		});
-  	} else if (temp >= 45 && temp <= 60) {
+  	} else if (temp <= 60) {
   		request("http://www.omdbapi.com/?t=norwegian+ninja&y=&plot=short&r=json", function (error, response, body){
   			console.log(body);
   		});
